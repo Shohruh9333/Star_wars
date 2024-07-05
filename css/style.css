@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.nav__logo{
+    font-size: 36px;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+.nav__list{
+    display: flex;
+    column-gap: 28px;
+}
